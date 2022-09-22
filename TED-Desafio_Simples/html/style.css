@@ -1,0 +1,37 @@
+* {margin: 0%; padding: 0%; font-family: sans-serif;}
+.div_icones, main, .op_pagamento,footer {float: left;}
+img {width: 30px;}
+.texto {margin-top: 3%;}
+
+main 
+{ 
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 35%;
+    padding: 20px;
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.op_pagamento
+{
+    margin: 5%;
+    margin-left: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    border: 2px solid green;
+    border-radius: 15px;
+}
+
+footer
+{
+    display: block;
+    margin-top: 12%;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    background-color: grey;
+}
