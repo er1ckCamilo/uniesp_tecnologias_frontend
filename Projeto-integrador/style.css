@@ -1,0 +1,57 @@
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+
+* {padding: 0px; margin: 0px; font-family:  sans-serif;}
+
+#img_header
+{
+    height: 200px;
+    width: 100%;
+}
+
+#img_principal
+{
+    margin-left: 34%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+h2
+{
+    margin: 50px;
+    text-align: center;
+}
+
+button
+{
+    margin: 10px;
+    margin-left: 40%;
+    width: 20%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E2393C;
+    color: white;
+}
+
+/* Responsividade para dispositivos mobile */
+@media screen and (max-width: 768px)
+{
+    #img_header
+    {
+        height: 100%;
+    }
+
+    #img_principal
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    button
+    {
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+}
